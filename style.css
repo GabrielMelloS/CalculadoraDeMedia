@@ -1,0 +1,118 @@
+body {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  min-height: 400px;
+  background: #003f54;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.calc-logo {
+  width: 200px;
+  top: 5px;
+  right: 5px;
+  margin: 0 0 5px;
+}
+
+.calc {
+  margin-top: 50px;
+  width: 550px;
+  height: 680px;
+  border: 5px solid #a28a2e;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.calc h2 {
+  color: white;
+}
+
+.primeiraNota {
+  
+  border-radius: 17px;
+  width: 150px;
+  height: 25px;
+  background-color: #a28a2e;
+  border: none;
+  border-bottom: 1px solid #eb8921;
+  outline: none;
+  color: white;
+  font-size: 24px;
+}
+
+.primeiraNota:focus {
+  background-color: #a28a2e;
+  border-radius: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.botao {
+  width: 90px;
+  height: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: #a28a2e;
+  color: white;
+  border: none;
+}
+
+.botao:hover {
+  border: 1px solid #6A0AFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 10px;
+  border-bottom: 1px solid #eb8921;
+}
+
+.botao:focus {
+  background-color: #1E0345;
+  border-radius: 10px;
+}
+
+.result {
+  width: 500px;
+  height: 150px;
+  color: white;
+  font-size: 26px;
+}
+
+.result, .aprovado {
+ -webkit-transition: 0.5s;
+  
+}
